@@ -53,9 +53,9 @@ export default function ProjectDetail(){
                 <Link className="" target="_blank" to={project.github}><FaGithub/> GitHub Repo</Link>
                 <Link className="" target="_blank" to={project.urlpath}><FaEye /> Live version</Link>
             </div>
-            <p>This is the main layout of an Instagram clone. It is built using vanilla CSS, and is utilizing Flexbox, CSS Grid, and CSS Variables. It was built as a part of Scrimba's Frontend Developer Career Path.</p>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?</p>
-            <p>Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius earum?</p>
+            <p>{project.desc1}</p>
+            <p>{project.desc2}</p>
+            <p>{project.desc3}</p>
             </div>
                 )}
 
